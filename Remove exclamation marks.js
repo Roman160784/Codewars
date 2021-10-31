@@ -1,0 +1,7 @@
+function removeExclamationMarks(s) {
+  return s.replace(/!/g,'');
+}
+
+function removeExclamationMarks(s) {
+  return s.split('!').join('');
+}
